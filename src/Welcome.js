@@ -1,7 +1,7 @@
 import React from 'react';
 
 class Welcome extends React.Component{
-
+	console.log('this is a log');
 	constructor(props){
 		super(props);
 		this.state = {counter: 0, username: 'amit'};
